@@ -28,13 +28,13 @@ int* populate_random_integer_array() {
                                 rand() % MAX_INT_VALUE
                     will not result to an integer larger than RAND_MAX. 
 
-            The line of code as used in this function sets up two rand() functions to reach
-            MAX_INT_VALUE. This code is made simply for this function. A different
-            and more apt approach would be to use bitwise operations. Below is an
-            example that can cover 32-bits. 
+            The line of code as used in this function sets up two rand() functions 
+            to reach MAX_INT_VALUE. This code is made simply for this function. A 
+            different and more apt approach would be to use bitwise operations. 
+            Below is an example that can cover 32-bits. 
                                 (rand() << 15)  | rand()
 
-        */  
+        */ 
         random_value = (rand() * (RAND_MAX + 1) + rand()) % MAX_INT_VALUE;
         data_array[i] = random_value;
         fprintf(fptr, "%d\n", random_value);
