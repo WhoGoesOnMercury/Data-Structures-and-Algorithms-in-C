@@ -6,8 +6,8 @@
 // Set to preferred data size and maximum integer value—not exceeding int limit
 //                                                      Otherwise, just use the
 //                                                      unsigned int data type.
-#define DATA_SIZE 1000000
-#define MAX_INT_VALUE 1000000
+#define DATA_SIZE 900000        // Nine hundred thousand
+#define MAX_INT_VALUE 1000000   // One million
 
 int* populate_random_integer_array() {
     int* data_array = malloc(DATA_SIZE * sizeof(int));
@@ -39,6 +39,8 @@ int* populate_random_integer_array() {
         data_array[i] = random_value;
         fprintf(fptr, "%d\n", random_value);
     }
+
+    fclose(fptr);
 
     return data_array;
 }
