@@ -2,13 +2,15 @@
 
 Think of a hash table as a finite one-dimensional array. Like all arrays, an 
 index is simply an integer, which means that it can be mathematically calculated. 
-To calculate an index in this array, we use a function f(x) that accepts an input 
+To calculate an index in this array, we use a function `f(x)` that accepts an input 
 `k` which then outputs a value `h`. 
 
                             f(k) = h
 
 `k` is what we will refer to as a `key`
+
 `h` is the `hash`
+
 `f(x)` is the `hashing function`
 
 Optimally, each hash should only be calculable through a single unique key but
