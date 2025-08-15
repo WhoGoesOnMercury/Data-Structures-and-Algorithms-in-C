@@ -6,7 +6,7 @@
 // Set to preferred data size and maximum integer value—not exceeding int limit
 //                                                      Otherwise, just use the
 //                                                      unsigned int data type.
-#define DATA_SIZE 900000        // Nine hundred thousand
+#define DATA_SIZE 900000        
 #define MAX_INT_VALUE 1000000   // One million
 
 int* populate_random_integer_array() {

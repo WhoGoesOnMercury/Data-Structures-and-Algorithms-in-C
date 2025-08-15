@@ -1,11 +1,3 @@
-/*
-    This is a hashtable implementation in C based on James Routley's tutorial. A 
-    more in-depth description of the codebase can be located in the link below.
-        
-    Here is a link to the Github repository: https://github.com/jamesroutley/write-a-hash-table
-    Here is a link to an e-portfolio-like website of his: https://routley.io/
-*/
-
 #include "hash_table.h"
 #include <stdio.h>
 #include <string.h>

@@ -181,7 +181,8 @@ void ht_insert(ht_hash_table* hashtable, const char* key, const char* value) {
     As stated, each "index" in the hash table is simply a mathematically-computed 
     hash value. Given this idea, we can simply ask for the key again, compute the 
     hash value, and then retrieve the value at the address. Here, there are no 
-    comparisons nor should any arrays or array-like data structures are iterated through. 
+    comparisons nor should any arrays or array-like data structures are iterated 
+    through. 
     
     In theory, basic mathematical operations is O(1). Since hashing functions are 
     simply mathematical operations, computing the hash from a key is also O(1)—

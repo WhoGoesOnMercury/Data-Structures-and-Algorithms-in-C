@@ -15,6 +15,10 @@ in MIT which I accessed using a link I found from Reddit.
 
 [MIT 2018 Lecture Notes](https://learning-modules.mit.edu/materials/index.html?uuid=/course/6/fa18/6.006#materials)
 
+It is noteworthy that you should read the comments in the files themselves. The
+READMEs can only discuss so much without first familiarizing yourself with the
+code itself.
+
 ## Why in C?
 
 In order to understand complex systems, one must dilute it down to its basic
@@ -22,6 +26,6 @@ constituents. The C language is greatly known for its non-abstract and manually-
 nature. Creating makeshift data structures using C will hopefully allow
 for mastery. 
 
-This whole project could be written in C++ (an Object oriented programming language) 
-but I concur. Memory management is an important aspect.
+This whole project could be written in C++ (an Object-oriented programming language) 
+but I concur. 
 
