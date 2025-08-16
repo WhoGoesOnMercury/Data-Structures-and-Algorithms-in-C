@@ -7,7 +7,7 @@
 //                                                      Otherwise, just use the
 //                                                      unsigned int data type.
 #define DATA_SIZE 900000        
-#define MAX_INT_VALUE 1000000   // One million
+#define MAX_INT_VALUE 1000000   
 
 int* populate_random_integer_array() {
     int* data_array = malloc(DATA_SIZE * sizeof(int));
